@@ -1,2 +1,2 @@
-# SYS_Intern_FE
+# React_Practice
 Internship Front-End Prac
