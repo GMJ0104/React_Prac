@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
                 <a href="https://store.google.com/KR?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=ko-KR"
                    className="nav-item-left">스토어</a>
                 <a className="nav-item-margin">margin</a>
-                <svg className="gb_j" focusable="false" viewBox="0 0 24 24">
+                <svg className="apps" focusable="false" viewBox="0 0 24 24">
                     <path
                         d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
                 </svg>
@@ -76,9 +76,11 @@ function App() {
                     </svg>
                 </div>
                 <div className="button-area">
-                    <button onClick={handleSearchButtonClick} className="button-style">Google 검색</button>
-                    <button onClick={handleLuckyButtonClick} className="button-style">I'm
-                        feeling lucky
+                    <button onClick={handleSearchButtonClick} className="button-style">
+                        Google 검색
+                    </button>
+                    <button onClick={handleLuckyButtonClick} className="button-style">
+                        I'm feeling lucky
                     </button>
                 </div>
             </div>
@@ -93,16 +95,16 @@ function App() {
                 <div className="second-line">
                 <span className="second-line-left">
                   <a href="https://www.google.com/intl/ko_kr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
-                     className="second-line-style">광고</a>
+                     className="second-line-style-left">광고</a>
                   <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
-                     className="second-line-style">비즈니스</a>
-                  <a href="https://google.com/search/howsearchworks/?fg=1" className="second-line-style">검색의 원리</a>
+                     className="second-line-style-left">비즈니스</a>
+                  <a href="https://google.com/search/howsearchworks/?fg=1" className="second-line-style-left">검색의 원리</a>
                 </span>
 
-                    <span className="second-line-right">
-                  <a href="https://policies.google.com/privacy?hl=ko&fg=1" className="second-line-style">개인정보처리방침</a>
-                  <a href="https://policies.google.com/terms?hl=ko&fg=1" className="second-line-style">약관</a>
-                  <a href="#" className="second-line-style">설정</a>
+                <span className="second-line-right">
+                  <a href="https://policies.google.com/privacy?hl=ko&fg=1" className="second-line-style-right">개인정보처리방침</a>
+                  <a href="https://policies.google.com/terms?hl=ko&fg=1" className="second-line-style-right">약관</a>
+                  <a href="#" className="second-line-style-right">설정</a>
                 </span>
                 </div>
             </div>

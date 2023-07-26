@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-.gb_j{
+.apps{
   float: right;
   width: 20px;
   height: 20px;
@@ -44,12 +44,8 @@ code {
   margin-right: 15px;
 }
 
-.nav-item:hover{
-  text-decoration: underline;
-}
-
 .main{
-  margin-top: 300px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -145,7 +141,7 @@ code {
 }
 
 .first-line{
-  padding: 15px 15px 30px 30px;
+  padding: 15px 15px 30px 15px;
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
   color: rgba(0,0,0,.54);
@@ -156,7 +152,7 @@ code {
 }
 
 .second-line{
-  padding: 15px 15px 30px 30px;
+  padding: 15px 15px 30px 15px;
   font-size: 15px;
   color: black;
 }
@@ -169,11 +165,18 @@ code {
   float: right;
 }
 
-.second-line-style{
+.second-line-style-left{
   color: rgba(0,0,0,.54);
   text-decoration: none;
   margin-right: 10px;
 }
+
+.second-line-style-right{
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
 .second-line-style:hover{
   text-decoration: underline;
 }
