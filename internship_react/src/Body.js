@@ -32,7 +32,7 @@ function Body() {
                      alt="google Logo"
                      className="object-cover"/>
             </div>
-            <div className="flex items-center w-full mx-auto mb-4 border rounded-full lg:max-w-2xl hover:shadow-md">
+            <div className="flex items-center w-full mx-auto mb-4 border rounded-full lg:max-w-2xl hover:shadow-md focus:shadow-md">
                 <div className="pl-5">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-gray-400" fill="none"
                          viewBox="0 0 24 24"
